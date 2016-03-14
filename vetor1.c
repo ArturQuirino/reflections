@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/*Função que mostra todos os valores dos vetores*/
 
 void mostra_vetor(int vetor[]){
 	int i;
@@ -9,6 +10,8 @@ void mostra_vetor(int vetor[]){
 
 }
 
+
+/*Função que ordena o vetor*/
 
 void ordena_vetor(int vetor[]){
 	int i,j;
@@ -29,6 +32,7 @@ void ordena_vetor(int vetor[]){
 }
 
 
+/*Função Principla*/
 
 int main(){
 	int x[9];
